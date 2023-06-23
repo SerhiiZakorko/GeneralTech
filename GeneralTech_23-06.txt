@@ -28,5 +28,5 @@ FROM [Products]
 
 	У поставщиков 3 и 5 изменить тел/номера на произвольные значения.
 UPDATE [Suppliers]
-SET Phone = '9379992'
+SET Phone = '02'
 WHERE SupplierID IN (3, 5)
